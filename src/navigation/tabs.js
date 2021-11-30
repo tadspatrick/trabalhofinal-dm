@@ -39,9 +39,9 @@ function Tabs({route}) {
                 style:{
                     backgroundColor: '#FFF'
                 },
-                activeTintColor: 'yellow',
-                inactiveTintColor: 'black',
-                activeBackgroundColor: 'black'
+                activeTintColor: '#fee700',
+                inactiveTintColor: '#000000',
+                activeBackgroundColor: '#000000'
             }}
         >
             <Tab.Screen name="Home" component={Home} initialParams={{user: user}}/>
